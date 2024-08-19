@@ -123,6 +123,7 @@ section a {
     url(../images/istanbul.jpg);
 }
 .video-location {
+  border-radius: 5px;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
@@ -145,4 +146,10 @@ section .motto {
   padding-right: 70px;
   color: #ffffff;
   font-weight: 500;
+}
+.youtube {
+  border-radius: 15px 15px 0 0;
+}
+iframe {
+  border-radius: 0 0 15px 15px;
 }
