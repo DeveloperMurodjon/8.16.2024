@@ -88,8 +88,11 @@ ul li a {
   font-size: 1em;
 }
 h2 {
-  font-size: 50px;
+  font-size: 5;
   color: white;
+}
+section a {
+  font-size: 2rem;
 }
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
