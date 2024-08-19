@@ -1,7 +1,16 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
 }
 * {
   margin: 0;
@@ -20,13 +29,54 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+.container {
+  max-width: 1296px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/bg-image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navigation {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu ul li a {
+  font-size: 2em;
+  word-spacing: 2px;
+  color: #fbcb00;
+  letter-spacing: -0.7px;
+}
+
+.hero-main h1 {
+  padding-top: 198px;
+  font-size: 7em;
+  line-height: 80px;
+  color: #fbcb00;
+  font-weight: 2.4em;
+}
 section {
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 3em;
   margin: 0 auto;
   height: 100vh;
   color: bisque;
@@ -35,7 +85,7 @@ section {
   background-size: cover;
 }
 ul li a {
-  font-size: 30px;
+  font-size: 1em;
 }
 h2 {
   font-size: 50px;
@@ -68,4 +118,15 @@ h2 {
 #istanbul {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/istanbul.jpg);
+}
+.video-location {
+  padding-top: 30px;
+  padding-left: 800px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section p {
+  max-width: 500px;
 }
